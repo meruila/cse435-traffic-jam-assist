@@ -1,0 +1,11 @@
+/*
+Banner from:
+https://unsplash.com/@pop_heart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+*/
+
+.banner {
+    width: 100vw;
+    height: 20vh;
+    background: url("../img/marra-PWF2JPATrvQ-unsplash.jpg") no-repeat;
+    background-size: cover;
+}

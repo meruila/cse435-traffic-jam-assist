@@ -1,0 +1,123 @@
+<!-- 
+Banner from:
+https://unsplash.com/@pop_heart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta name="author" content="TJA4 Fall 2022">
+
+    <title>CSE 435 - TJA4</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
+    </head>
+    <body>
+    <!-- Header and navigation bar -->
+    <header>
+        <div class="banner"></div>
+        <nav id="topbar">
+            <div class="right-topbar">
+                <div class="item-topbar nav-bar"><a class="nav-link" href="index.html">Home</a></div>
+                <div class="item-topbar nav-bar dropdown">
+                    Public Links
+                    <div class="dropdown-content">
+                        <a href="./files/2022-TJA-Ford-Milam.pdf" target="_blank">Original Project Description</a>
+                        <a href="#">SRS</a>
+                        <a href="#">Prototype</a>
+                        <a href="#">Bibliography</a>
+                    </div>
+                </div>
+                <div class="item-topbar nav-bar last-item dropdown">
+                    Local Information
+                    <div class="dropdown-content">
+                        <a href="./local/meetings.html">Meetings</a>
+                        <a href="#">Milestones</a>
+                        <a href="#">Deliverables</a>
+                        <a href="./local/local_pdf.pdf">Other Files</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="tja-title">CSE 435 Traffic Jam Assist</h1>
+        <div id="content">
+            <h1>Project Background</h1>
+            <p>Software-based electronic control systems are increasingly being used in the automotive industry to provide convenience and safety
+                features to vehicle drivers and passengers, with increasing levels of automation and control authority. A growing trend is to
+                assist the driver in maintaining safe control over the motion of the vehicle in a variety of circumstances including, but not
+                limited to, congested traffic conditions, adverse weather and road conditions, varying states of health of vehicle equipment,
+                and varying skill levels of drivers.
+            </p>
+            <h1>Project Description</h1>
+            <p>Traffic Jam Assist is based on the Adaptive Cruise Control(ACC) system common to most modern
+                vehicles. Basic Cruise control simply maintains a constant speed. While it will adjust to uphill and
+                downhill conditions, it depends on the driver to determine if you are getting too close to the vehicle in
+                front and adjust the speed or even disengage. ACC uses a forward looking radar to identify a target
+                vehicle and determine the closing rate to that target. Ideally the closing rate should be zero. It can be
+                positive in that the closing distance is growing and no action is needed. If negative then you are getting
+                too close to the target and need to slow down and maintain a set distance. Typically the drive has 3
+                selections for the distance. In addition if a forward looking camera is available you can add lane
+                following which keeps you in the middle of the lane you are in. If you try to change lanes without
+                signaling it will resist your attempt. Not to the point of not allowing it, but is will be annoying.
+            </p>
+            <p>
+                To this we wish to add, only on particular limited access highways, the ability to adjust to traffic flow by
+                stopping behind the target vehicle in the case of slow and stopped traffic. If the target vehicle then
+                starts back up the vehicle you are in will also start up, following at the set distance and controlling the
+                closing rate. Your set speed has not changed and should you change lanes your vehicle will resume the
+                set speed assuming there are no other target vehicles.
+            </p>
+            <h1>Team Composition</h1>
+            <div class="team">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/rodrigo-gonzalez-1575b713b/" target="_blank">
+                        <img src="./img/gonzalez.jpeg" alt="Rondy Gonzalez" loading="lazy">
+                    </a>
+                    <p class="member-name">Rondy Gonzalez</p>
+                    <p>Role: Project Manager</p>
+                </div>
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/charley-akers-a938ba22a/" target="_blank">
+                        <img src="./img/akers_sq.jpeg" alt="Charley Akers" loading="lazy">
+                    </a>
+                    <p class="member-name">Charley Akers</p>
+                    <p>Role: Project Facilitator</p>
+                </div>
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/meruila/" target="_blank">
+                        <img src="./img/arguelles.jpg" alt="Mirella Arguelles" loading="lazy">
+                    </a>
+                    <p class="member-name">Mirella Arguelles</p>
+                    <p>Role: Artifacts Manager</p>
+                </div>
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/garrett-feinauer-2863a6175/" target="_blank">
+                        <img src="./img/feinauer_sq.jpeg" alt="Garrett Feinauer" loading="lazy">
+                    </a>
+                    <p class="member-name">Garrett Feinauer</p>
+                    <p>Role: Domain Expert/Customer Liaison</p>
+                </div>
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/tara-younessi-2787b9229/" target="_blank">
+                        <img src="./img/younessi_sq.jpeg" alt="Tara Younessi" loading="lazy">
+                    </a>
+                    <p class="member-name">Tara Younessi</p>
+                    <p>Role: Security/Assurance Manager</p>
+                </div>
+            </div>
+            <h1>CSE 435 Information</h1>
+            <p>Instructor: <a href="http://www.cse.msu.edu/~chengb/">Dr. Betty H.C. Cheng</a></p>
+            <a href="https://www.cse.msu.edu/~cse435/">CSE 435 Website</a>
+        </div>
+        
+    </main>
+    
+    </body>
+</html>
